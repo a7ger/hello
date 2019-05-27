@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Encoding=UTF-8
-Name=Hello
-Comment=Testing my GUI skills
-Exec=hello
-Icon=/usr/share/hello/icon.png
-Terminal=false
