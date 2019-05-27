@@ -16,10 +16,13 @@ class App(tk.Frame):
         self.hello_button.pack(side='top')
 
         self.quit_button = tk.Button(self, text='quit', command=self.master.destroy)
-        self.quit_button.pack(side='bottom')
+        self.quit_button.pack()
+        
+        self.text = tk.Text(self, height=10, width=30)
+        self.text.pack(side='bottom')
 
     def button_clicked(self):
-        print('hello world')
+        self.text.insert(tk.END, "hello world\n")
 
 app = App(master = tk.Tk())
 app.mainloop()
