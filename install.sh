@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# comment
+
 cp hello_test /usr/bin/
 
 mkdir /usr/share/hello_test
