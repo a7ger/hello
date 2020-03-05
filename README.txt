@@ -1,3 +1,7 @@
+This is a simple executable. Made with PyInstaller. Testing my ability to distibute this to linux.
+Meant for use with Ubuntu 18.04 or newer.
+
+
 install from source directory with:
 $ ./install.sh
 
